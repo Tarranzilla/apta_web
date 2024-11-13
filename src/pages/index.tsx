@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import Section_Intro from "@/components/landing_page/Section_Intro";
 import Section_Hero_Banner from "@/components/landing_page/Section_Hero_Banner";
