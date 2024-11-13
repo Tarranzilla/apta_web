@@ -1,3 +1,5 @@
+@import "material-icons/iconfont/material-icons.css";
+
 :root {
     --blue_bright: #32b1d8;
     --blue_medium: #0478a9;
@@ -51,6 +53,7 @@ a {
     border-radius: 2rem;
     padding: 0.5rem 1.5rem;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .landing_page_link:hover,
@@ -126,8 +129,8 @@ a {
     left: 0;
     width: 0;
     height: 2px; /* Adjust the height of the underline bar */
-    background-color: var(--white_common); /* Same color as the link */
-    transition: width 0.3s ease-in-out; /* Smooth animation for bar */
+    background-color: var(--blue_bright); /* Same color as the link */
+    transition: all 0.3s ease-in-out; /* Smooth animation for bar */
 }
 
 .navbar_link:hover::before {
@@ -136,6 +139,10 @@ a {
 
 .navbar_link.active {
     color: var(--white_common);
+}
+
+.navbar_link.active::before {
+    background-color: var(--white_common); /* Same color as the link */
 }
 
 .common_section {
@@ -151,8 +158,18 @@ a {
     transition: background-color 0.3s ease-in-out;
 }
 
+.section_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_title {
+    font-size: 2.5rem;
+}
+
 .section_subtitle {
-    max-width: 80ch;
+    max-width: 70ch;
 }
 
 .section_intro.active {
@@ -199,6 +216,54 @@ a {
     height: 20rem;
     background-color: var(--blue_bright);
     border-radius: 2rem;
+}
+
+.section_donate {
+    gap: 2rem;
+}
+
+.section_donate_info_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.section_donate_text_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section_donate_text {
+    max-width: 80ch;
+    font-weight: 300;
+    text-align: start;
+}
+
+.section_donate_faq {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+    gap: 2rem;
+
+    width: 80ch;
+
+    outline: 1px solid var(--blue_bright);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.donate_faq_question {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--blue_bright);
+}
+
+.accordion_paragraph_container {
+}
+
+.faq_question_header {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {

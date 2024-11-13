@@ -1,11 +1,13 @@
 const Section_About = () => {
     return (
         <div className="common_section section_about">
-            <h1 className="section_title">Conheça nossa história</h1>
-            <h3 className="section_subtitle">
-                Fundada em 1987, a APTA (Associação de Pesquisa e Tratamento do Alcoolismo) é uma entidade filantrópica sem fins lucrativos, declarada
-                de utilidade pública municipal, estadual e federal.
-            </h3>
+            <div className="section_header">
+                <h1 className="section_title">A Nossa História</h1>
+                <h3 className="section_subtitle">
+                    Fundada em 1987, a APTA (Associação de Pesquisa e Tratamento do Alcoolismo) é uma entidade filantrópica sem fins lucrativos,
+                    declarada de utilidade pública municipal, estadual e federal.
+                </h3>
+            </div>
 
             <div className="section_about_text_container">
                 <h4 className="section_about_text">
