@@ -103,7 +103,9 @@ const Section_Donate = () => {
                         um momento crucial de recuperação.
                     </h4>
 
-                    <a className="landing_page_link">Seja um Doador</a>
+                    <a className="landing_page_link donate_link">
+                        Seja um Doador <span className="material-icons donate_link_icon">favorite</span>
+                    </a>
                 </div>
 
                 <div className="section_donate_faq">
