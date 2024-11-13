@@ -11,21 +11,23 @@ const Section_About = () => {
 
             <div className="section_about_text_container">
                 <h4 className="section_about_text">
-                    A APTA oferece um programa de tratamento e prevenção do alcoolismo e outras substâncias químicas, através de uma equipe capacitada
-                    e multidisciplinar.
+                    <span className="about_text_icon material-icons">health_and_safety</span>A APTA oferece um programa de tratamento e prevenção do
+                    alcoolismo e outras substâncias químicas, através de uma equipe capacitada e multidisciplinar.
                 </h4>
                 <h4 className="section_about_text">
-                    O tratamento acontence no IPTA (Instituto de Pesquisa e Tratamento do Alcoolismo), que é um hospital com especialidade
-                    psiquiátrica de média complexidade, tendo como modelo terapêutico a internação de 45 dias.
+                    <span className="about_text_icon material-icons">spa</span>O tratamento acontence no IPTA (Instituto de Pesquisa e Tratamento do
+                    Alcoolismo), que é um hospital com especialidade psiquiátrica de média complexidade, tendo como modelo terapêutico a internação de
+                    45 dias.
                 </h4>
                 <h4 className="section_about_text">
+                    <span className="about_text_icon material-icons">foundation</span>
                     Possuimos um amplo espaço com área construída e infraestrutura adequada para o desenvolvimento de nossas atividades em consonância
                     com a legislação vigente.
                 </h4>
             </div>
 
             <a href="#" className="landing_page_link">
-                Leia mais a nosso respeito
+                Leia mais a nosso respeito <span className=" footer_link_icon material-icons">north_east</span>
             </a>
         </div>
     );

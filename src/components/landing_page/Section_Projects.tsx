@@ -40,7 +40,7 @@ const Section_Projects = () => {
             </div>
 
             <a href="#" className="landing_page_link">
-                Confira Todos os Projetos!
+                Confira Todos os Projetos! <span className=" footer_link_icon material-icons">north_east</span>
             </a>
         </div>
     );

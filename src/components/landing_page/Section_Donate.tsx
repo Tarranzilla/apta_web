@@ -14,6 +14,14 @@ const faqData = [
         ],
     },
     {
+        title: "Quais são os meio de pagamentos das doações",
+        explanation: [
+            "As doações são feitas totalmente online com pagamento via cartão de crédito (Visa, MasterCard, Amex, Elo e Hipercard) ou cartão de débito (MasterCard e Visa).",
+            "Na opção crédito, o valor doado aparecerá na próxima fatura do seu cartão, na data que for efetuada sua doação.",
+            "Além da possibilidade de realizar doações aqui no nosso portal, você também pode contribuir por meio do nosso PIX (chave e-mail) doe@apta.com.br e enviar o comprovante para esse mesmo e-mail informando o projeto que deseja apoiar, seu nome completo, CPF e telefone para contato.",
+        ],
+    },
+    {
         title: "Com qual frequência posso fazer doações?",
         explanation: [
             "O doador poderá optar por uma doação única ou mensal. Na modalidade mensal, a recorrência será debitada diretamente no cartão de crédito ou débito selecionado, na mesma data da primeira doação.",
@@ -22,13 +30,20 @@ const faqData = [
     {
         title: "A APTA aceita doações de produtos ou serviços?",
         explanation: [
-            "Sim, para mais detalhes, entre em contato com nossa área de Investimentos Sociais pelo e-mail doe@apta.com.br ou pelo telefone (41) 99999-9999.",
+            "Sim, aceitamos doações de alimentos, materiais de higiene e desinfecção, materiais hospitalares, EPIs e outros insumos necessários à manutenção e funcionamento de nossa instituição e de nossos projetos.",
+            "Para mais detalhes, entre em contato com nossa área de Investimentos Sociais pelo e-mail doe@apta.com.br ou pelo telefone (41) 99999-9999.",
         ],
     },
     {
         title: "Como saber o que foi feito com o valor da minha doação?",
         explanation: [
             "A APTA tem o compromisso com a transparência e a credibilidade. Desse modo, nos comprometemos a prestar contas de todas doações recebidas pela associação mensalmente através de um relatório de prestação de contas.",
+        ],
+    },
+    {
+        title: "Posso doar meus cupons fiscais para a APTA?",
+        explanation: [
+            "Sim, você pode nos ajudar doando o crédito das suas Notas Fiscais Paulistas. A doação poderá ser feita pelo cadastro automático do CPF, indicando a Associação de Pesquisa e Tratamento do Alcoolismo como entidade beneficiada.",
         ],
     },
 ];
